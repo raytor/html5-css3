@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:100,300i,400,400i,500,700');
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+.container	{
+	width: 600px;
+	margin: 0 auto;
+}
+
+header {
+	width: 600px;
+	height: 193px;
+	background-color: rgba(69, 84, 105, 0.95);
+}
+
+.logo {
+	height: 35px;
+	width: 125px;
+	background: url(images/forrst_x24.png) no-repeat 0 13px;
+	margin-left: 20px;
+	font-size: 24px;
+	font-stretch: 
+	color: rgba(82, 173, 129, 1);
+	padding-top: 15px;
+	padding-left: 37px;
+}
+
+.center_header {
+	margin-top: 20px;
+	margin-left: 20px;
+	float: left;
+	background: url(images/abacus.png) no-repeat right;
+}
+
+.center_header h3 {
+	margin-top: -5px;
+	font-size: 24px;
+	font-weight: 400;
+	color: #ffffff;
+}
+
+.center_header p{
+	margin-top: 15px;
+	font-size: 11px;
+	font-weight: 400;
+	color: aqua;
+	line-height: 11px;
+	width: 300px;
+	text-align: justify;
+}
+
+.center_header a {
+	display: block;
+	width: 93px;
+	height: 24px;
+	border-radius: 2px;
+	background-color: #67bf95;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 10px;
+	color: #ffffff;
+	text-decoration: none;
+	text-align: center;
+	margin-top: 8px;
+	line-height: 23px;
+}
+.about_us {
+	height: 155px;
+	background-color: rgba(0, 0, 0, 0);
+}
+
+.center_about_us {
+	height: 130px;
+	background: url(images/contract_x64.png) no-repeat left 52px;
+	float: left;
+	margin-top: -5px;
+	margin-left: 50px;
+}
+
+.center_about_us p{
+	padding-top: 11px;
+	width: 308px;
+	padding-left: 80px;
+	text-align: justify;
+	line-height: 14px;
+	font-size: 12px
+}
+.center_about_us h3{
+	font-size: 22px;
+	margin-top: 5px;
+}
+
+.icons {
+	margin-left: 35px;
+	float: left;
+	width: 52px;
+}
+
+.icons .pencil {
+	margin-top: 20px;
+	width: 35px;
+	height: 35px;
+	background-color: rgba(0, 0, 0, 0);
+	border-radius: 50%;
+}
+
+.icons .fv {
+	margin-top: 25px;
+	width: 35px;
+	height: 35px;
+	background-color: rgba(0, 0, 0, 0);
+	border-radius: 50%;
+}
+.modern {
+	height: 485px;
+	background-color: #52ad81;
+}
+
+.modern h2 {
+	font-size: 24px;
+	color: #ffffff;
+	font-weight: 500;
+	line-height: 20px;
+	text-align: center;
+	padding-top: 20px;
+	margin-bottom: 5px;
+}
+
+.modern p {
+	margin-left: 20px;
+	font-size: 15px;
+	font-weight: 100;
+	color: rgba(45, 97, 54, 1);
+}
+
+.galeria {
+	margin-top:17px;
+	width: 600px;
+	height: 405px;
+	background: url(images/Spitta.png) no-repeat center;
+}
+
+.galeria_left {
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	background: url(images/left-arrow.svg) no-repeat;
+	border-radius: 50%;
+	margin-left: 20px;
+	margin-top: 320px;
+}
+
+.galeria_right {
+	width: 30px;
+	height: 30px;
+	background: url(images/right-arrow.svg) no-repeat;
+	border-radius: 50%;
+	float: right;
+	margin-right: 20px;
+	margin-top: 20px;
+}
+.mail {
+	height: 200px;
+	background-color: #2d6136;
+}
+
+footer {
+	width: 600px;
+	height: 30px;
+	background-color: #2a2d33;
+}
